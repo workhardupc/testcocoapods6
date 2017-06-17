@@ -109,7 +109,6 @@
 				TargetAttributes = {
 					96B73E8E1EF522B400AC3962 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = NK22HY3LBA;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -270,8 +269,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = NK22HY3LBA;
+				CODE_SIGN_IDENTITY = "";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = testcocoapods6/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.letv.iphone.client;
@@ -283,8 +282,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = NK22HY3LBA;
+				CODE_SIGN_IDENTITY = "";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = testcocoapods6/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.letv.iphone.client;
