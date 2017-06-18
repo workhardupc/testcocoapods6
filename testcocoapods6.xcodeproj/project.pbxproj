@@ -274,6 +274,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Hao Chen (93HC9Z97GX)";
 				DEVELOPMENT_TEAM = NK22HY3LBA;
 				INFOPLIST_FILE = testcocoapods6/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.letv.iphone.client;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,6 +290,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Hao Chen (93HC9Z97GX)";
 				DEVELOPMENT_TEAM = NK22HY3LBA;
 				INFOPLIST_FILE = testcocoapods6/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.letv.iphone.client;
 				PRODUCT_NAME = "$(TARGET_NAME)";
