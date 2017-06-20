@@ -10,5 +10,6 @@
 //:configuration = Debug
 CODE_SIGN_IDENTITY = iPhone Developer: Hao Chen (93HC9Z97GX)
 PROVISIONING_PROFILE_SPECIFIER = LetvIphoneClient_DEV
+PROVISIONING_PROFILE = b01343d1-4f47-4f3e-ad99-9068aad9dee9
 
 
