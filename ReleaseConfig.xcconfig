@@ -1,0 +1,11 @@
+//
+//  ReleaseConfig.xcconfig
+//  testcocoapods6
+//
+//  Created by bob on 2017/6/20.
+//
+//
+
+
+CODE_SIGN_IDENTITY = iPhone Distribution: letv Information Technology(Beijing)Co.,Ltd (NK22HY3LBA)
+PROVISIONING_PROFILE_SPECIFIER = leshiyingshiIphoneDistribute20141011

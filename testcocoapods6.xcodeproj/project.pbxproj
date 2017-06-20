@@ -26,6 +26,8 @@
 		96B73E9E1EF522B400AC3962 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96B73EA11EF522B400AC3962 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96B73EA31EF522B400AC3962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96B73EA91EF9633700AC3962 /* DebugConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = DebugConfig.xcconfig; path = ../DebugConfig.xcconfig; sourceTree = "<group>"; };
+		96B73EAA1EF9635A00AC3962 /* ReleaseConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = ReleaseConfig.xcconfig; path = ../ReleaseConfig.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,8 @@
 				96B73E9E1EF522B400AC3962 /* Assets.xcassets */,
 				96B73EA01EF522B400AC3962 /* LaunchScreen.storyboard */,
 				96B73EA31EF522B400AC3962 /* Info.plist */,
+				96B73EA91EF9633700AC3962 /* DebugConfig.xcconfig */,
+				96B73EAA1EF9635A00AC3962 /* ReleaseConfig.xcconfig */,
 				96B73E921EF522B400AC3962 /* Supporting Files */,
 			);
 			path = testcocoapods6;
@@ -110,7 +114,7 @@
 					96B73E8E1EF522B400AC3962 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = NK22HY3LBA;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -180,6 +184,7 @@
 /* Begin XCBuildConfiguration section */
 		96B73EA41EF522B400AC3962 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96B73EA91EF9633700AC3962 /* DebugConfig.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -227,6 +232,7 @@
 		};
 		96B73EA51EF522B400AC3962 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96B73EA91EF9633700AC3962 /* DebugConfig.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -270,15 +276,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Hao Chen (93HC9Z97GX)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Hao Chen (93HC9Z97GX)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = NK22HY3LBA;
 				INFOPLIST_FILE = testcocoapods6/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.letv.iphone.client;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = LetvIphoneClient_DEV;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -286,15 +292,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Hao Chen (93HC9Z97GX)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Hao Chen (93HC9Z97GX)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = NK22HY3LBA;
 				INFOPLIST_FILE = testcocoapods6/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.letv.iphone.client;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = LetvIphoneClient_DEV;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
