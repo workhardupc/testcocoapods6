@@ -274,6 +274,7 @@
 		};
 		96B73EA71EF522B400AC3962 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96B73EA91EF9633700AC3962 /* DebugConfig.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -291,6 +292,7 @@
 		};
 		96B73EA81EF522B400AC3962 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96B73EA91EF9633700AC3962 /* DebugConfig.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
