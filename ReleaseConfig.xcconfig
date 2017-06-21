@@ -8,5 +8,5 @@
 
 
 CODE_SIGN_IDENTITY = iPhone Distribution: letv Information Technology(Beijing)Co.,Ltd (NK22HY3LBA)
-PROVISIONING_PROFILE_SPECIFIER = leshiyingshiIphoneDistribute20141011
+PROVISIONING_PROFILE_SPECIFIER =
 PROVISIONING_PROFILE = f5b821c3-6d67-4ff7-a83c-759f5cf5af84

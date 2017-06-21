@@ -116,7 +116,7 @@
 					96B73E8E1EF522B400AC3962 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = NK22HY3LBA;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
