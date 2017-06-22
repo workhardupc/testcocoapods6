@@ -1,0 +1,18 @@
+User defaults from command line:
+    xcconfig = ReleaseConfig.xcconfig
+
+Build settings from command line:
+    SDKROOT = iphoneos10.2
+
+=== BUILD TARGET testcocoapods6 OF PROJECT testcocoapods6 WITH CONFIGURATION Release ===
+
+Check dependencies
+
+Validate build/Release-iphoneos/testcocoapods6.app
+    cd /Letv/Work/CodeExample/testcocoapods6
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/zhangbob/.rbenv/bin:/Users/zhangbob/.rbenv/shims:/Users/zhangbob/.rbenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/zhangbob/.rvm/bin"
+    export PRODUCT_TYPE=com.apple.product-type.application
+    builtin-validationUtility /Letv/Work/CodeExample/testcocoapods6/build/Release-iphoneos/testcocoapods6.app -validate-for-store
+
+** BUILD SUCCEEDED **
+
